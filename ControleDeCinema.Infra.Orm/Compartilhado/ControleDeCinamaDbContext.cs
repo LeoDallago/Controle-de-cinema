@@ -1,4 +1,5 @@
 ﻿using ControleDeCinema.Dominio.ModuloFilme;
+using ControleDeCinema.Dominio.ModuloSala;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -7,6 +8,8 @@ namespace ControleDeCinema.Infra.Orm.Compartilhado;
 public class ControleDeCinamaDbContext : DbContext
 {
    public DbSet<Filme> Filmes { get; set; }
+   
+   public DbSet<Sala> Salas { get; set; }
    
    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
    {
@@ -41,6 +44,23 @@ public class ControleDeCinamaDbContext : DbContext
 
          filmeBuilder.Property(f => f.Genero)
             .HasColumnType("varchar(250)");
+      });
+
+      modelBuilder.Entity<Sala>(salaBuilder =>
+      {
+         salaBuilder.ToTable("TBSala");
+
+         salaBuilder.Property(s => s.Id)
+            .IsRequired()
+            .ValueGeneratedOnAdd();
+
+         salaBuilder.Property(s => s.Numero)
+            .IsRequired()
+            .HasColumnType("varchar(10)");
+
+         salaBuilder.Property(s => s.Capacidade)
+            .IsRequired()
+            .HasColumnType("int");
       });
       
       base.OnModelCreating(modelBuilder);

@@ -16557,7 +16557,7 @@
     </database>
     <database id="5512" parent="1" name="ControleDeCinemaOrm">
       <Current>1</Current>
-      <Fingerprint>8.45504/A8BEADD4-190F-4586-A6DD-3AEF8F6ADCD4@Zenbook\LOCALDB#ACCC</Fingerprint>
+      <Fingerprint>8.45504/A8BEADD4-190F-4586-A6DD-3AEF8F6ADCD4@Zenbook\LOCALDB#FC4A</Fingerprint>
       <Grants>8|database||1|connect|G
 8|database||0|view any column encryption key definition|G
 8|database||0|view any column master key definition|G</Grants>
@@ -16565,261 +16565,264 @@
       <PermissionsCheckSum>3196235284</PermissionsCheckSum>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <database id="5513" parent="1" name="eAgendaDb">
+    <database id="5513" parent="1" name="ControleDeCinemaOrmTests">
+      <ObjectId>9</ObjectId>
+    </database>
+    <database id="5514" parent="1" name="eAgendaDb">
       <ObjectId>6</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <database id="5514" parent="1" name="master">
+    <database id="5515" parent="1" name="master">
       <ObjectId>1</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <database id="5515" parent="1" name="model">
+    <database id="5516" parent="1" name="model">
       <ObjectId>3</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <database id="5516" parent="1" name="msdb">
+    <database id="5517" parent="1" name="msdb">
       <ObjectId>4</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <database id="5517" parent="1" name="tempdb">
+    <database id="5518" parent="1" name="tempdb">
       <ObjectId>2</ObjectId>
       <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
-    <login id="5518" parent="1" name="sa">
+    <login id="5519" parent="1" name="sa">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>1</ObjectId>
     </login>
-    <login id="5519" parent="1" name="public">
+    <login id="5520" parent="1" name="public">
       <Enabled>1</Enabled>
       <ObjectId>2</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5520" parent="1" name="sysadmin">
+    <login id="5521" parent="1" name="sysadmin">
       <Enabled>1</Enabled>
       <ObjectId>3</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5521" parent="1" name="securityadmin">
+    <login id="5522" parent="1" name="securityadmin">
       <Enabled>1</Enabled>
       <ObjectId>4</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5522" parent="1" name="serveradmin">
+    <login id="5523" parent="1" name="serveradmin">
       <Enabled>1</Enabled>
       <ObjectId>5</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5523" parent="1" name="setupadmin">
+    <login id="5524" parent="1" name="setupadmin">
       <Enabled>1</Enabled>
       <ObjectId>6</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5524" parent="1" name="processadmin">
+    <login id="5525" parent="1" name="processadmin">
       <Enabled>1</Enabled>
       <ObjectId>7</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5525" parent="1" name="diskadmin">
+    <login id="5526" parent="1" name="diskadmin">
       <Enabled>1</Enabled>
       <ObjectId>8</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5526" parent="1" name="dbcreator">
+    <login id="5527" parent="1" name="dbcreator">
       <Enabled>1</Enabled>
       <ObjectId>9</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5527" parent="1" name="bulkadmin">
+    <login id="5528" parent="1" name="bulkadmin">
       <Enabled>1</Enabled>
       <ObjectId>10</ObjectId>
       <Type>server-role</Type>
     </login>
-    <login id="5528" parent="1" name="##MS_SQLResourceSigningCertificate##">
+    <login id="5529" parent="1" name="##MS_SQLResourceSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>101</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5529" parent="1" name="##MS_SQLReplicationSigningCertificate##">
+    <login id="5530" parent="1" name="##MS_SQLReplicationSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>102</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5530" parent="1" name="##MS_SQLAuthenticatorCertificate##">
+    <login id="5531" parent="1" name="##MS_SQLAuthenticatorCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>103</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5531" parent="1" name="##MS_PolicySigningCertificate##">
+    <login id="5532" parent="1" name="##MS_PolicySigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>105</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5532" parent="1" name="##MS_SmoExtendedSigningCertificate##">
+    <login id="5533" parent="1" name="##MS_SmoExtendedSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>106</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5533" parent="1" name="##MS_PolicyEventProcessingLogin##">
+    <login id="5534" parent="1" name="##MS_PolicyEventProcessingLogin##">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>256</ObjectId>
     </login>
-    <login id="5534" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
+    <login id="5535" parent="1" name="##MS_PolicyTsqlExecutionLogin##">
       <DefaultDatabase>master</DefaultDatabase>
       <ObjectId>257</ObjectId>
     </login>
-    <login id="5535" parent="1" name="##MS_AgentSigningCertificate##">
+    <login id="5536" parent="1" name="##MS_AgentSigningCertificate##">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>258</ObjectId>
       <Type>certificate-mapped-login</Type>
     </login>
-    <login id="5536" parent="1" name="ZENBOOK\leoda">
+    <login id="5537" parent="1" name="ZENBOOK\leoda">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>259</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <login id="5537" parent="1" name="NT SERVICE\SQLWriter">
+    <login id="5538" parent="1" name="NT SERVICE\SQLWriter">
       <DefaultDatabase>master</DefaultDatabase>
       <Enabled>1</Enabled>
       <ObjectId>260</ObjectId>
       <Type>windows-login</Type>
     </login>
-    <assembly id="5538" parent="5512" name="Microsoft.SqlServer.Types">
+    <assembly id="5539" parent="5512" name="Microsoft.SqlServer.Types">
       <ObjectId>1</ObjectId>
       <Visible>1</Visible>
     </assembly>
-    <filegroup id="5539" parent="5512" name="PRIMARY">
+    <filegroup id="5540" parent="5512" name="PRIMARY">
       <DefaultGroup>1</DefaultGroup>
       <ObjectId>1</ObjectId>
     </filegroup>
-    <role id="5540" parent="5512" name="public">
+    <role id="5541" parent="5512" name="INFORMATION_SCHEMA">
       <AuthType>none</AuthType>
-      <ObjectId>0</ObjectId>
+      <ObjectId>3</ObjectId>
+    </role>
+    <role id="5542" parent="5512" name="db_accessadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16385</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5541" parent="5512" name="dbo">
+    <role id="5543" parent="5512" name="db_backupoperator">
+      <AuthType>none</AuthType>
+      <ObjectId>16389</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5544" parent="5512" name="db_datareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16390</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5545" parent="5512" name="db_datawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16391</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5546" parent="5512" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5547" parent="5512" name="db_denydatareader">
+      <AuthType>none</AuthType>
+      <ObjectId>16392</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5548" parent="5512" name="db_denydatawriter">
+      <AuthType>none</AuthType>
+      <ObjectId>16393</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5549" parent="5512" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5550" parent="5512" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5551" parent="5512" name="dbo">
       <AuthType>windows</AuthType>
       <DefaultSchema>dbo</DefaultSchema>
       <ObjectId>1</ObjectId>
       <Type>windows-user</Type>
     </role>
-    <role id="5542" parent="5512" name="guest">
+    <role id="5552" parent="5512" name="guest">
       <AuthType>none</AuthType>
       <DefaultSchema>guest</DefaultSchema>
       <ObjectId>2</ObjectId>
     </role>
-    <role id="5543" parent="5512" name="INFORMATION_SCHEMA">
+    <role id="5553" parent="5512" name="public">
       <AuthType>none</AuthType>
-      <ObjectId>3</ObjectId>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
     </role>
-    <role id="5544" parent="5512" name="sys">
+    <role id="5554" parent="5512" name="sys">
       <AuthType>none</AuthType>
       <ObjectId>4</ObjectId>
     </role>
-    <role id="5545" parent="5512" name="db_owner">
-      <AuthType>none</AuthType>
-      <ObjectId>16384</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5546" parent="5512" name="db_accessadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16385</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5547" parent="5512" name="db_securityadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16386</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5548" parent="5512" name="db_ddladmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16387</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5549" parent="5512" name="db_backupoperator">
-      <AuthType>none</AuthType>
-      <ObjectId>16389</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5550" parent="5512" name="db_datareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16390</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5551" parent="5512" name="db_datawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16391</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5552" parent="5512" name="db_denydatareader">
-      <AuthType>none</AuthType>
-      <ObjectId>16392</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5553" parent="5512" name="db_denydatawriter">
-      <AuthType>none</AuthType>
-      <ObjectId>16393</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <schema id="5554" parent="5512" name="INFORMATION_SCHEMA">
+    <schema id="5555" parent="5512" name="INFORMATION_SCHEMA">
       <ObjectId>3</ObjectId>
     </schema>
-    <schema id="5555" parent="5512" name="db_accessadmin">
+    <schema id="5556" parent="5512" name="db_accessadmin">
       <ObjectId>16385</ObjectId>
     </schema>
-    <schema id="5556" parent="5512" name="db_backupoperator">
+    <schema id="5557" parent="5512" name="db_backupoperator">
       <ObjectId>16389</ObjectId>
     </schema>
-    <schema id="5557" parent="5512" name="db_datareader">
+    <schema id="5558" parent="5512" name="db_datareader">
       <ObjectId>16390</ObjectId>
     </schema>
-    <schema id="5558" parent="5512" name="db_datawriter">
+    <schema id="5559" parent="5512" name="db_datawriter">
       <ObjectId>16391</ObjectId>
     </schema>
-    <schema id="5559" parent="5512" name="db_ddladmin">
+    <schema id="5560" parent="5512" name="db_ddladmin">
       <ObjectId>16387</ObjectId>
     </schema>
-    <schema id="5560" parent="5512" name="db_denydatareader">
+    <schema id="5561" parent="5512" name="db_denydatareader">
       <ObjectId>16392</ObjectId>
     </schema>
-    <schema id="5561" parent="5512" name="db_denydatawriter">
+    <schema id="5562" parent="5512" name="db_denydatawriter">
       <ObjectId>16393</ObjectId>
     </schema>
-    <schema id="5562" parent="5512" name="db_owner">
+    <schema id="5563" parent="5512" name="db_owner">
       <ObjectId>16384</ObjectId>
     </schema>
-    <schema id="5563" parent="5512" name="db_securityadmin">
+    <schema id="5564" parent="5512" name="db_securityadmin">
       <ObjectId>16386</ObjectId>
     </schema>
-    <schema id="5564" parent="5512" name="dbo">
+    <schema id="5565" parent="5512" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-08-01.11:17:37.070</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-08-01.17:17:37</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-08-05.06:02:47.747</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-05.12:02:47</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
-    <schema id="5565" parent="5512" name="guest">
+    <schema id="5566" parent="5512" name="guest">
       <ObjectId>2</ObjectId>
     </schema>
-    <schema id="5566" parent="5512" name="sys">
+    <schema id="5567" parent="5512" name="sys">
       <ObjectId>4</ObjectId>
     </schema>
-    <table id="5567" parent="5564" name="TBFilme">
+    <table id="5568" parent="5565" name="TBFilme">
       <CreatedTimestamp>2024-08-01.10:33:53.127</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <ModifiedTimestamp>2024-08-01.10:33:53.127</ModifiedTimestamp>
@@ -16827,7 +16830,15 @@
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5568" parent="5564" name="__EFMigrationsHistory">
+    <table id="5569" parent="5565" name="TBSala">
+      <CreatedTimestamp>2024-08-05.06:02:35.490</CreatedTimestamp>
+      <DataRetentionPeriod>-1</DataRetentionPeriod>
+      <ModifiedTimestamp>2024-08-05.06:02:35.490</ModifiedTimestamp>
+      <ObjectId>1845581613</ObjectId>
+      <LedgerViewId>0</LedgerViewId>
+      <LobDataSpaceId>0</LobDataSpaceId>
+    </table>
+    <table id="5570" parent="5565" name="__EFMigrationsHistory">
       <CreatedTimestamp>2024-08-01.10:33:53.047</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <ModifiedTimestamp>2024-08-01.10:33:53.047</ModifiedTimestamp>
@@ -16835,59 +16846,89 @@
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <column id="5569" parent="5567" name="Id">
+    <column id="5571" parent="5568" name="Id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1</SequenceIdentity>
+      <SequenceIdentity>1(10)</SequenceIdentity>
     </column>
-    <column id="5570" parent="5567" name="Titulo">
+    <column id="5572" parent="5568" name="Titulo">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5571" parent="5567" name="Duracao">
+    <column id="5573" parent="5568" name="Duracao">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5572" parent="5567" name="Genero">
+    <column id="5574" parent="5568" name="Genero">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="5573" parent="5567" name="PK_TBFilme">
+    <index id="5575" parent="5568" name="PK_TBFilme">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5574" parent="5567" name="PK_TBFilme">
+    <key id="5576" parent="5568" name="PK_TBFilme">
       <CreatedTimestamp>2024-08-01.10:33:53.130</CreatedTimestamp>
       <ModifiedTimestamp>2024-08-01.10:33:53.130</ModifiedTimestamp>
       <ObjectId>933578364</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_TBFilme</UnderlyingIndexName>
     </key>
-    <column id="5575" parent="5568" name="MigrationId">
+    <column id="5577" parent="5569" name="Id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="5578" parent="5569" name="Numero">
+      <DasType>varchar(10 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="5579" parent="5569" name="Capacidade">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="5580" parent="5569" name="PK_TBSala">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5581" parent="5569" name="PK_TBSala">
+      <CreatedTimestamp>2024-08-05.06:02:35.493</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.06:02:35.493</ModifiedTimestamp>
+      <ObjectId>1861581670</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_TBSala</UnderlyingIndexName>
+    </key>
+    <column id="5582" parent="5570" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5576" parent="5568" name="ProductVersion">
+    <column id="5583" parent="5570" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5577" parent="5568" name="PK___EFMigrationsHistory">
+    <index id="5584" parent="5570" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5578" parent="5568" name="PK___EFMigrationsHistory">
+    <key id="5585" parent="5570" name="PK___EFMigrationsHistory">
       <CreatedTimestamp>2024-08-01.10:33:53.053</CreatedTimestamp>
       <ModifiedTimestamp>2024-08-01.10:33:53.053</ModifiedTimestamp>
       <ObjectId>901578250</ObjectId>

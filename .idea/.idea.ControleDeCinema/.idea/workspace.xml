@@ -9,7 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado pagina inicial" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado pagina inicial">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/ModuloSala/RepositorioSala.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleDeCinemaTestes/ModuloSala/TestesIntegrados.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSala/Sala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSala/Sala.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +41,12 @@
     &quot;assignee&quot;: &quot;MaCout0&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/TabajarasORG/Controle-de-cinema.git&quot;,
-    &quot;accountId&quot;: &quot;189c0a4a-41ac-45a6-9a87-58a2e765a1e5&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/LeoDallago/Controle-de-cinema.git",
+    "accountId": "189c0a4a-41ac-45a6-9a87-58a2e765a1e5"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Controllers/FilmeController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Models/FilmeViewModels.cs" root0="SKIP_HIGHLIGHTING" />
@@ -62,7 +71,7 @@
     ".NET Launch Settings Profile.ControleDeCinema.WebApp: https.executor": "Run",
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/ModuloFilme",
+    "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -155,6 +164,7 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
+      <workItem from="1722857809698" duration="1822000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />

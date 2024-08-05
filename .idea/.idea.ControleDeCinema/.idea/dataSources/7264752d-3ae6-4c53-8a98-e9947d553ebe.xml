@@ -16557,10 +16557,11 @@
     </database>
     <database id="5512" parent="1" name="ControleDeCinemaOrm">
       <ObjectId>8</ObjectId>
+      <CollationName>SQL_Latin1_General_CP1_CI_AS</CollationName>
     </database>
     <database id="5513" parent="1" name="ControleDeCinemaOrmTests">
       <Current>1</Current>
-      <Fingerprint>9.45504/8493F0A9-803A-44B6-8968-78EC26B71E14@Zenbook\LOCALDB#B4DC</Fingerprint>
+      <Fingerprint>9.45504/8493F0A9-803A-44B6-8968-78EC26B71E14@Zenbook\LOCALDB#FC4A</Fingerprint>
       <Grants>9|database||1|connect|G
 9|database||0|view any column encryption key definition|G
 9|database||0|view any column master key definition|G</Grants>
@@ -16701,84 +16702,84 @@
       <DefaultGroup>1</DefaultGroup>
       <ObjectId>1</ObjectId>
     </filegroup>
-    <role id="5541" parent="5513" name="public">
-      <AuthType>none</AuthType>
-      <ObjectId>0</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5542" parent="5513" name="dbo">
-      <AuthType>windows</AuthType>
-      <DefaultSchema>dbo</DefaultSchema>
-      <ObjectId>1</ObjectId>
-      <Type>windows-user</Type>
-    </role>
-    <role id="5543" parent="5513" name="guest">
-      <AuthType>none</AuthType>
-      <DefaultSchema>guest</DefaultSchema>
-      <ObjectId>2</ObjectId>
-    </role>
-    <role id="5544" parent="5513" name="INFORMATION_SCHEMA">
+    <role id="5541" parent="5513" name="INFORMATION_SCHEMA">
       <AuthType>none</AuthType>
       <ObjectId>3</ObjectId>
     </role>
-    <role id="5545" parent="5513" name="sys">
-      <AuthType>none</AuthType>
-      <ObjectId>4</ObjectId>
-    </role>
-    <role id="5546" parent="5513" name="db_owner">
-      <AuthType>none</AuthType>
-      <ObjectId>16384</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5547" parent="5513" name="db_accessadmin">
+    <role id="5542" parent="5513" name="db_accessadmin">
       <AuthType>none</AuthType>
       <ObjectId>16385</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5548" parent="5513" name="db_securityadmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16386</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5549" parent="5513" name="db_ddladmin">
-      <AuthType>none</AuthType>
-      <ObjectId>16387</ObjectId>
-      <Type>database-role</Type>
-      <OwnerId>1</OwnerId>
-    </role>
-    <role id="5550" parent="5513" name="db_backupoperator">
+    <role id="5543" parent="5513" name="db_backupoperator">
       <AuthType>none</AuthType>
       <ObjectId>16389</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5551" parent="5513" name="db_datareader">
+    <role id="5544" parent="5513" name="db_datareader">
       <AuthType>none</AuthType>
       <ObjectId>16390</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5552" parent="5513" name="db_datawriter">
+    <role id="5545" parent="5513" name="db_datawriter">
       <AuthType>none</AuthType>
       <ObjectId>16391</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5553" parent="5513" name="db_denydatareader">
+    <role id="5546" parent="5513" name="db_ddladmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16387</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5547" parent="5513" name="db_denydatareader">
       <AuthType>none</AuthType>
       <ObjectId>16392</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
     </role>
-    <role id="5554" parent="5513" name="db_denydatawriter">
+    <role id="5548" parent="5513" name="db_denydatawriter">
       <AuthType>none</AuthType>
       <ObjectId>16393</ObjectId>
       <Type>database-role</Type>
       <OwnerId>1</OwnerId>
+    </role>
+    <role id="5549" parent="5513" name="db_owner">
+      <AuthType>none</AuthType>
+      <ObjectId>16384</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5550" parent="5513" name="db_securityadmin">
+      <AuthType>none</AuthType>
+      <ObjectId>16386</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5551" parent="5513" name="dbo">
+      <AuthType>windows</AuthType>
+      <DefaultSchema>dbo</DefaultSchema>
+      <ObjectId>1</ObjectId>
+      <Type>windows-user</Type>
+    </role>
+    <role id="5552" parent="5513" name="guest">
+      <AuthType>none</AuthType>
+      <DefaultSchema>guest</DefaultSchema>
+      <ObjectId>2</ObjectId>
+    </role>
+    <role id="5553" parent="5513" name="public">
+      <AuthType>none</AuthType>
+      <ObjectId>0</ObjectId>
+      <Type>database-role</Type>
+      <OwnerId>1</OwnerId>
+    </role>
+    <role id="5554" parent="5513" name="sys">
+      <AuthType>none</AuthType>
+      <ObjectId>4</ObjectId>
     </role>
     <schema id="5555" parent="5513" name="INFORMATION_SCHEMA">
       <ObjectId>3</ObjectId>
@@ -16812,8 +16813,8 @@
     </schema>
     <schema id="5565" parent="5513" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-08-01.12:08:22.973</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-08-01.18:08:22</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-08-05.06:04:51.603</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-05.12:04:51</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5566" parent="5513" name="guest">
@@ -16830,7 +16831,15 @@
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <table id="5569" parent="5565" name="__EFMigrationsHistory">
+    <table id="5569" parent="5565" name="TBSala">
+      <CreatedTimestamp>2024-08-05.06:04:41.800</CreatedTimestamp>
+      <DataRetentionPeriod>-1</DataRetentionPeriod>
+      <ModifiedTimestamp>2024-08-05.06:04:41.800</ModifiedTimestamp>
+      <ObjectId>1205579333</ObjectId>
+      <LedgerViewId>0</LedgerViewId>
+      <LobDataSpaceId>0</LobDataSpaceId>
+    </table>
+    <table id="5570" parent="5565" name="__EFMigrationsHistory">
       <CreatedTimestamp>2024-08-01.12:06:59.477</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
       <ModifiedTimestamp>2024-08-01.12:06:59.477</ModifiedTimestamp>
@@ -16838,59 +16847,89 @@
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
-    <column id="5570" parent="5568" name="Id">
+    <column id="5571" parent="5568" name="Id">
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1</SequenceIdentity>
+      <SequenceIdentity>1(4)</SequenceIdentity>
     </column>
-    <column id="5571" parent="5568" name="Titulo">
+    <column id="5572" parent="5568" name="Titulo">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5572" parent="5568" name="Duracao">
+    <column id="5573" parent="5568" name="Duracao">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
-    <column id="5573" parent="5568" name="Genero">
+    <column id="5574" parent="5568" name="Genero">
       <DasType>varchar(250 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="5574" parent="5568" name="PK_TBFilme">
+    <index id="5575" parent="5568" name="PK_TBFilme">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5575" parent="5568" name="PK_TBFilme">
+    <key id="5576" parent="5568" name="PK_TBFilme">
       <CreatedTimestamp>2024-08-01.12:06:59.547</CreatedTimestamp>
       <ModifiedTimestamp>2024-08-01.12:06:59.547</ModifiedTimestamp>
       <ObjectId>933578364</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_TBFilme</UnderlyingIndexName>
     </key>
-    <column id="5576" parent="5569" name="MigrationId">
+    <column id="5577" parent="5569" name="Id">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>1</Position>
+      <SequenceIdentity>1(2)</SequenceIdentity>
+    </column>
+    <column id="5578" parent="5569" name="Numero">
+      <DasType>varchar(10 char)|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>2</Position>
+    </column>
+    <column id="5579" parent="5569" name="Capacidade">
+      <DasType>int|0s</DasType>
+      <NotNull>1</NotNull>
+      <Position>3</Position>
+    </column>
+    <index id="5580" parent="5569" name="PK_TBSala">
+      <Clustering>1</Clustering>
+      <ColNames>Id</ColNames>
+      <Position>1</Position>
+      <Unique>1</Unique>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5581" parent="5569" name="PK_TBSala">
+      <CreatedTimestamp>2024-08-05.06:04:41.803</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.06:04:41.803</ModifiedTimestamp>
+      <ObjectId>1221579390</ObjectId>
+      <Primary>1</Primary>
+      <UnderlyingIndexName>PK_TBSala</UnderlyingIndexName>
+    </key>
+    <column id="5582" parent="5570" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5577" parent="5569" name="ProductVersion">
+    <column id="5583" parent="5570" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5578" parent="5569" name="PK___EFMigrationsHistory">
+    <index id="5584" parent="5570" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5579" parent="5569" name="PK___EFMigrationsHistory">
+    <key id="5585" parent="5570" name="PK___EFMigrationsHistory">
       <CreatedTimestamp>2024-08-01.12:06:59.483</CreatedTimestamp>
       <ModifiedTimestamp>2024-08-01.12:06:59.483</ModifiedTimestamp>
       <ObjectId>901578250</ObjectId>
