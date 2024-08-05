@@ -1,0 +1,42 @@
+﻿@model ControleDeCinema.WebApp.Models.InserirSessaoViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Inserir sessao";
+}
+
+<div class="container">
+    <form asp-action="Inserir">
+        <div class="col-md-6">
+            <label class="control-label fw-semibold">Filme</label>
+            <select class="form-select" asp-for="FilmeId" asp-items="Model.Filmes">
+                <option disabled="">Selecione um filme</option>
+            </select>
+            <span class="text-danger my-1" asp-validation-for="Filmes"></span>
+        </div>
+
+        <div class="col-md-3">
+            <label class="control-label fw-semibold">Sala</label>
+            <select class="form-select" asp-for="SalaId" asp-items="Model.Salas">
+                <option disabled="">Selecione uma sala</option>
+            </select>
+            <span class="text-danger my-1" asp-validation-for="Salas"></span>
+        </div>
+        
+        <div class="col-md-3">
+            <label class="control-label fw-semibold">Horario de Inicio</label>
+            <input type="text" class="form-control" asp-for="HorarioDeInicio" id="time"/>
+        </div>
+        
+        <button class="btn btn-dark col-md-3 mt-3">Gravar</button>
+    </form>
+</div>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#time').mask('00:00:00');
+        })
+    </script>
+}

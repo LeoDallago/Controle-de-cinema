@@ -75,17 +75,23 @@ public class ControleDeCinamaDbContext : DbContext
             .IsRequired()
             .ValueGeneratedOnAdd();
 
-         sessaoBuilder.Property(s => s.Filme)
+         sessaoBuilder.HasOne(s => s.Filme)
+            .WithMany()
+            .HasForeignKey("Filme_Id")
+            .HasConstraintName("FK_TBConta_TBFilme")
             .IsRequired()
-            .HasColumnType("varchar(250)");
-
-         sessaoBuilder.Property(s => s.Sala)
+            .OnDelete(DeleteBehavior.Restrict);
+         
+         sessaoBuilder.HasOne(s => s.Sala)
+            .WithMany()
+            .HasForeignKey("Sala_Id")
+            .HasConstraintName("FK_TBConta_TBSala")
             .IsRequired()
-            .HasColumnType("varchar(250)");
-
+            .OnDelete(DeleteBehavior.Restrict);
+         
          sessaoBuilder.Property(s => s.HorarioDeInicio)
             .IsRequired()
-            .HasColumnType("varchar(100)");
+            .HasColumnType("datetime2");
       });
       base.OnModelCreating(modelBuilder);
    }

@@ -16551,7 +16551,7 @@
     </collation>
     <database id="5510" parent="1" name="ControleDeCinemaOrm">
       <Current>1</Current>
-      <Fingerprint>8.45504/A8BEADD4-190F-4586-A6DD-3AEF8F6ADCD4@Zenbook\LOCALDB#B184</Fingerprint>
+      <Fingerprint>8.45504/A8BEADD4-190F-4586-A6DD-3AEF8F6ADCD4@Zenbook\LOCALDB#F126</Fingerprint>
       <Grants>8|database||1|connect|G
 8|database||0|view any column encryption key definition|G
 8|database||0|view any column master key definition|G</Grants>
@@ -16812,8 +16812,8 @@
     </schema>
     <schema id="5565" parent="5510" name="dbo">
       <Current>1</Current>
-      <IntrospectionTimestamp>2024-08-05.11:06:35.177</IntrospectionTimestamp>
-      <LastIntrospectionLocalTimestamp>2024-08-05.17:06:35</LastIntrospectionLocalTimestamp>
+      <IntrospectionTimestamp>2024-08-05.13:14:21.160</IntrospectionTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-08-05.19:14:21</LastIntrospectionLocalTimestamp>
       <ObjectId>1</ObjectId>
     </schema>
     <schema id="5566" parent="5510" name="guest">
@@ -16823,34 +16823,34 @@
       <ObjectId>4</ObjectId>
     </schema>
     <table id="5568" parent="5565" name="TBFilme">
-      <CreatedTimestamp>2024-08-01.10:33:53.127</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-05.13:14:11.017</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-01.10:33:53.127</ModifiedTimestamp>
-      <ObjectId>917578307</ObjectId>
+      <ModifiedTimestamp>2024-08-05.13:14:11.023</ModifiedTimestamp>
+      <ObjectId>370100359</ObjectId>
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5569" parent="5565" name="TBSala">
-      <CreatedTimestamp>2024-08-05.06:02:35.490</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-05.13:14:11.020</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-05.06:02:35.490</ModifiedTimestamp>
-      <ObjectId>1845581613</ObjectId>
+      <ModifiedTimestamp>2024-08-05.13:14:11.023</ModifiedTimestamp>
+      <ObjectId>402100473</ObjectId>
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5570" parent="5565" name="TBSessao">
-      <CreatedTimestamp>2024-08-05.11:06:01.417</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-05.13:14:11.023</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-05.11:06:01.417</ModifiedTimestamp>
-      <ObjectId>18099105</ObjectId>
+      <ModifiedTimestamp>2024-08-05.13:14:11.030</ModifiedTimestamp>
+      <ObjectId>434100587</ObjectId>
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
     <table id="5571" parent="5565" name="__EFMigrationsHistory">
-      <CreatedTimestamp>2024-08-01.10:33:53.047</CreatedTimestamp>
+      <CreatedTimestamp>2024-08-05.13:14:10.913</CreatedTimestamp>
       <DataRetentionPeriod>-1</DataRetentionPeriod>
-      <ModifiedTimestamp>2024-08-01.10:33:53.047</ModifiedTimestamp>
-      <ObjectId>885578193</ObjectId>
+      <ModifiedTimestamp>2024-08-05.13:14:10.913</ModifiedTimestamp>
+      <ObjectId>338100245</ObjectId>
       <LedgerViewId>0</LedgerViewId>
       <LobDataSpaceId>0</LobDataSpaceId>
     </table>
@@ -16858,7 +16858,7 @@
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1(10)</SequenceIdentity>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="5573" parent="5568" name="Titulo">
       <DasType>varchar(250 char)|0s</DasType>
@@ -16883,9 +16883,9 @@
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5577" parent="5568" name="PK_TBFilme">
-      <CreatedTimestamp>2024-08-01.10:33:53.130</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-01.10:33:53.130</ModifiedTimestamp>
-      <ObjectId>933578364</ObjectId>
+      <CreatedTimestamp>2024-08-05.13:14:11.020</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:11.020</ModifiedTimestamp>
+      <ObjectId>386100416</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_TBFilme</UnderlyingIndexName>
     </key>
@@ -16893,7 +16893,7 @@
       <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <SequenceIdentity>1(6)</SequenceIdentity>
+      <SequenceIdentity>1</SequenceIdentity>
     </column>
     <column id="5579" parent="5569" name="Numero">
       <DasType>varchar(10 char)|0s</DasType>
@@ -16913,9 +16913,9 @@
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
     <key id="5582" parent="5569" name="PK_TBSala">
-      <CreatedTimestamp>2024-08-05.06:02:35.493</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-05.06:02:35.493</ModifiedTimestamp>
-      <ObjectId>1861581670</ObjectId>
+      <CreatedTimestamp>2024-08-05.13:14:11.020</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:11.020</ModifiedTimestamp>
+      <ObjectId>418100530</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_TBSala</UnderlyingIndexName>
     </key>
@@ -16925,56 +16925,84 @@
       <Position>1</Position>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="5584" parent="5570" name="Filme">
-      <DasType>varchar(250 char)|0s</DasType>
+    <column id="5584" parent="5570" name="Filme_Id">
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <column id="5585" parent="5570" name="Sala">
-      <DasType>varchar(250 char)|0s</DasType>
+    <column id="5585" parent="5570" name="Sala_Id">
+      <DasType>int|0s</DasType>
       <NotNull>1</NotNull>
       <Position>3</Position>
     </column>
     <column id="5586" parent="5570" name="HorarioDeInicio">
-      <DasType>varchar(100 char)|0s</DasType>
+      <DasType>datetime2|0s</DasType>
       <NotNull>1</NotNull>
       <Position>4</Position>
     </column>
-    <index id="5587" parent="5570" name="PK_TBSessao">
+    <foreign-key id="5587" parent="5570" name="FK_TBConta_TBFilme">
+      <ColNames>Filme_Id</ColNames>
+      <CreatedTimestamp>2024-08-05.13:14:11.023</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:11.023</ModifiedTimestamp>
+      <ObjectId>466100701</ObjectId>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>370100359</RefTableId>
+      <RefTableName>TBFilme</RefTableName>
+    </foreign-key>
+    <foreign-key id="5588" parent="5570" name="FK_TBConta_TBSala">
+      <ColNames>Sala_Id</ColNames>
+      <CreatedTimestamp>2024-08-05.13:14:11.023</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:11.023</ModifiedTimestamp>
+      <ObjectId>482100758</ObjectId>
+      <RefColNames>Id</RefColNames>
+      <RefTableId>402100473</RefTableId>
+      <RefTableName>TBSala</RefTableName>
+    </foreign-key>
+    <index id="5589" parent="5570" name="PK_TBSessao">
       <Clustering>1</Clustering>
       <ColNames>Id</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5588" parent="5570" name="PK_TBSessao">
-      <CreatedTimestamp>2024-08-05.11:06:01.420</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-05.11:06:01.420</ModifiedTimestamp>
-      <ObjectId>34099162</ObjectId>
+    <index id="5590" parent="5570" name="IX_TBSessao_Filme_Id">
+      <ColNames>Filme_Id</ColNames>
+      <Position>2</Position>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <index id="5591" parent="5570" name="IX_TBSessao_Sala_Id">
+      <ColNames>Sala_Id</ColNames>
+      <Position>3</Position>
+      <PartitionDataSpaceId>1</PartitionDataSpaceId>
+    </index>
+    <key id="5592" parent="5570" name="PK_TBSessao">
+      <CreatedTimestamp>2024-08-05.13:14:11.023</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:11.023</ModifiedTimestamp>
+      <ObjectId>450100644</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK_TBSessao</UnderlyingIndexName>
     </key>
-    <column id="5589" parent="5571" name="MigrationId">
+    <column id="5593" parent="5571" name="MigrationId">
       <DasType>nvarchar(150 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>1</Position>
     </column>
-    <column id="5590" parent="5571" name="ProductVersion">
+    <column id="5594" parent="5571" name="ProductVersion">
       <DasType>nvarchar(32 char)|0s</DasType>
       <NotNull>1</NotNull>
       <Position>2</Position>
     </column>
-    <index id="5591" parent="5571" name="PK___EFMigrationsHistory">
+    <index id="5595" parent="5571" name="PK___EFMigrationsHistory">
       <Clustering>1</Clustering>
       <ColNames>MigrationId</ColNames>
       <Position>1</Position>
       <Unique>1</Unique>
       <PartitionDataSpaceId>1</PartitionDataSpaceId>
     </index>
-    <key id="5592" parent="5571" name="PK___EFMigrationsHistory">
-      <CreatedTimestamp>2024-08-01.10:33:53.053</CreatedTimestamp>
-      <ModifiedTimestamp>2024-08-01.10:33:53.053</ModifiedTimestamp>
-      <ObjectId>901578250</ObjectId>
+    <key id="5596" parent="5571" name="PK___EFMigrationsHistory">
+      <CreatedTimestamp>2024-08-05.13:14:10.927</CreatedTimestamp>
+      <ModifiedTimestamp>2024-08-05.13:14:10.927</ModifiedTimestamp>
+      <ObjectId>354100302</ObjectId>
       <Primary>1</Primary>
       <UnderlyingIndexName>PK___EFMigrationsHistory</UnderlyingIndexName>
     </key>

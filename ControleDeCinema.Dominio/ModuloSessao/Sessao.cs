@@ -1,4 +1,5 @@
-﻿using ControleDeCinema.Dominio.Compartilhado;
+﻿using System.Drawing;
+using ControleDeCinema.Dominio.Compartilhado;
 using ControleDeCinema.Dominio.ModuloFilme;
 using ControleDeCinema.Dominio.ModuloSala;
 
@@ -6,18 +7,23 @@ namespace ControleDeCinema.Dominio.ModuloSessao;
 
 public class Sessao : EntidadeBase
 {
-    public Sessao(string filme, string sala, string horarioDeInicio)
+    public Sessao(Filme filme, Sala sala, DateTime horarioDeInicio)
     {
         Filme = filme;
         Sala = sala;
         HorarioDeInicio = horarioDeInicio;
     }
 
-    public string Filme { get; set; }
+    public Sessao()
+    {
+        
+    }
+
+    public Filme Filme { get; set; }
     
-    public string Sala { get; set; }
+    public Sala Sala { get; set; }
     
-    public string HorarioDeInicio { get; set; }
+    public DateTime HorarioDeInicio { get; set; }
     
     
     public void AtualizarInformacoes(EntidadeBase entidadeAtualizada)

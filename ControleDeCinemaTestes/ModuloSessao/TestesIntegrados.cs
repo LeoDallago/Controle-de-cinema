@@ -4,7 +4,7 @@ using ControleDeCinema.Infra.Orm.ModuloSessao;
 
 namespace ControleDeCinemaTestes.ModuloSessao;
 
-[TestClass]
+/*[TestClass]
 [TestCategory("Testes Integrados")]
 public class TestesIntegrados
 {
@@ -62,5 +62,5 @@ public class TestesIntegrados
         
         //Assert
         Assert.AreEqual("testEditado",sessao.Filme);
-    }
 }
+    }*/

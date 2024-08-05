@@ -9,16 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/ModuloSessao/RepositorioSessao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleDeCinemaTestes/ModuloSessao/TestesIntegrados.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" afterDir="false" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado repositorio e testes de sessao">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SessaoController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SessaoViewModels.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSessao/Sessao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSessao/Sessao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +156,7 @@
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
       <workItem from="1722857809698" duration="6123000" />
-      <workItem from="1722876858526" duration="1892000" />
+      <workItem from="1722876858526" duration="5352000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -276,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722863276591</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="implementado repositorio e testes de sessao">
+      <option name="closed" value="true" />
+      <created>1722879002902</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1722879002902</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +313,7 @@
     <MESSAGE value="implementado interface excluir sala" />
     <MESSAGE value="implementado interface editar sala" />
     <MESSAGE value="implementado interface de detalhes da sala" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado interface de detalhes da sala" />
+    <MESSAGE value="implementado repositorio e testes de sessao" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado repositorio e testes de sessao" />
   </component>
 </project>
