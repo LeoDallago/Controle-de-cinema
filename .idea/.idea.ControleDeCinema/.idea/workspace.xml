@@ -9,11 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado interface excluir sala">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Editar.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" afterDir="false" />
-    </list>
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado interface editar sala" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -155,7 +151,7 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
-      <workItem from="1722857809698" duration="4664000" />
+      <workItem from="1722857809698" duration="5001000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -253,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722862253697</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="implementado interface editar sala">
+      <option name="closed" value="true" />
+      <created>1722862857693</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1722862857693</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,6 +290,7 @@
     <MESSAGE value="implementado interface inserir sala" />
     <MESSAGE value="implementado listar sala" />
     <MESSAGE value="implementado interface excluir sala" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado interface excluir sala" />
+    <MESSAGE value="implementado interface editar sala" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado interface editar sala" />
   </component>
 </project>

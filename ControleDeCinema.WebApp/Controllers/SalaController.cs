@@ -120,4 +120,22 @@ public class SalaController : Controller
         
         return View("mensagens");
     }
+
+    [HttpGet]
+    public ViewResult Detalhes(SalaViewModels.DetalhesSalaViewModel detalhesSalaViewModel)
+    {
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var sala = repositorioSala.SelecionarPorId(detalhesSalaViewModel.Id);
+
+        var salaViewModel = new SalaViewModels.DetalhesSalaViewModel()
+        {
+            Id = sala.Id,
+            Numero = sala.Numero,
+            Capacidade = sala.Capacidade
+        };
+        
+        return View(salaViewModel);
+    }
 }

@@ -1,0 +1,22 @@
+﻿@model ControleDeCinema.WebApp.Models.SalaViewModels.DetalhesSalaViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Detalhes Sala";
+}
+
+<div class="container d-flex justify-content-center">
+    <div class="card col-md-3">
+        <div class="card-body">
+            <h4 class="fs-semibold">Id: @Model.Id</h4>
+            <h4 class="fs-semibold">Numero: @Model.Numero</h4>
+            <h4 class="fs-semibold">Capacidade: @Model.Capacidade</h4>
+
+            <div>
+                <a class="btn btn-dark bi bi-pencil  m-2" href="/sala/editar/@Model.Id">Editar</a>
+                <a class="btn btn-dark bi bi-trash  m-2" href="/sala/excluir/@Model.Id">Excluir</a>
+            </div>
+        </div>
+    </div>
+</div>
+

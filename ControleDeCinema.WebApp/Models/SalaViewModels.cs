@@ -39,4 +39,13 @@ public class SalaViewModels
         
         public int Capacidade { get; set; }
     }
+    
+    public class DetalhesSalaViewModel
+    {
+        public int Id { get; set; }
+        
+        public string Numero { get; set; }
+        
+        public int Capacidade { get; set; }
+    }
 }
