@@ -1,0 +1,31 @@
+﻿@model System.Collections.Generic.IEnumerable<ControleDeCinema.WebApp.Models.SalaViewModels.ListarSalaViewModel>
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Listar Salas";
+}
+
+<a class="btn btn-dark bi bi-plus" href="/sala/inserir"></a>
+
+<div class="container d-flex">
+
+    @foreach (var item in Model)
+    {
+    <div class="card col-md-3 m-3 ">
+        <div class="card-body d-block">
+            <div>
+                <h3 class="fs-5 fw-semibold">Numero: @item.Numero</h3>
+                <h3 class="fs-5 fw-semibold">Capacidade: @item.Capacidade</h3>
+            </div>
+
+            @*<div>
+                <a class="btn btn-dark bi bi-pencil" href="/filme/editar/@item.Id"></a>
+                <a class="btn btn-dark bi bi-trash" href="/filme/excluir/@item.Id"></a>
+                <a class="btn btn-dark bi bi-zoom-in" href="/filme/detalhes/@item.Id"></a>
+            </div>*@
+
+        </div>
+    </div>
+    }
+</div>
+

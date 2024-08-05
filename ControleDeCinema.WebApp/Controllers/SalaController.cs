@@ -32,4 +32,22 @@ public class SalaController : Controller
         ViewBag.Mensagem = $"A sala {novaSala.Numero} foi inserida com Sucesso!";
         return View("mensagens");
     }
+
+    [HttpGet]
+    public ViewResult Listar()
+    {
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var salas = repositorioSala.SelecionarTodos();
+
+        var salaViewModel = salas.Select(s => new SalaViewModels.ListarSalaViewModel
+        {
+                Id = s.Id,
+                Numero = s.Numero,
+                Capacidade = s.Capacidade
+        });
+        
+        return View(salaViewModel);
+    }
 }

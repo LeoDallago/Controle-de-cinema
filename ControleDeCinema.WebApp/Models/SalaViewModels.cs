@@ -12,4 +12,13 @@ public class SalaViewModels
         [Required(ErrorMessage = "Por favor, insira a CAPACIDADE")]
         public int Capacidade { get; set; }
     }
+    
+    public class ListarSalaViewModel
+    {
+        public int Id { get; set; }
+        
+        public string Numero { get; set; }
+        
+        public int Capacidade { get; set; }
+    }
 }

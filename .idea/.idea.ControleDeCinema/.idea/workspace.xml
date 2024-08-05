@@ -9,11 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado migration e testes de sala">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" afterDir="false" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado interface inserir sala">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Listar.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -160,7 +162,7 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
-      <workItem from="1722857809698" duration="2848000" />
+      <workItem from="1722857809698" duration="3462000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -234,7 +236,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722859972459</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="implementado interface inserir sala">
+      <option name="closed" value="true" />
+      <created>1722860877015</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1722860877015</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +274,7 @@
     <MESSAGE value="implementado Detalhes do filme" />
     <MESSAGE value="implementado pagina inicial" />
     <MESSAGE value="implementado migration e testes de sala" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado migration e testes de sala" />
+    <MESSAGE value="implementado interface inserir sala" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado interface inserir sala" />
   </component>
 </project>
