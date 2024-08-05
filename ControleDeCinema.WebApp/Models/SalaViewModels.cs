@@ -13,6 +13,13 @@ public class SalaViewModels
         public int Capacidade { get; set; }
     }
     
+    public class ExcluirSalaViewModel
+    {
+        public int Id { get; set; }
+        
+        public string Numero { get; set; }
+    }
+    
     public class ListarSalaViewModel
     {
         public int Id { get; set; }

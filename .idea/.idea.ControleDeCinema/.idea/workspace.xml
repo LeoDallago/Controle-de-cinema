@@ -9,13 +9,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado interface inserir sala">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Listar.cshtml" afterDir="false" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado listar sala">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Excluir.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Listar.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Listar.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +45,7 @@
   }
 }]]></component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Controllers/FilmeController.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Models/FilmeViewModels.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Views/Filme/excluir.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
     <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinemaTestes/ModuloFilme/TesteIntegrado.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -162,7 +157,7 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
-      <workItem from="1722857809698" duration="3462000" />
+      <workItem from="1722857809698" duration="4238000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -244,7 +239,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722860877015</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="implementado listar sala">
+      <option name="closed" value="true" />
+      <created>1722861518671</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1722861518672</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,6 +278,7 @@
     <MESSAGE value="implementado pagina inicial" />
     <MESSAGE value="implementado migration e testes de sala" />
     <MESSAGE value="implementado interface inserir sala" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado interface inserir sala" />
+    <MESSAGE value="implementado listar sala" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado listar sala" />
   </component>
 </project>

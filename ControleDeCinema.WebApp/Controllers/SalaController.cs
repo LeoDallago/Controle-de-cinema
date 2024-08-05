@@ -50,4 +50,36 @@ public class SalaController : Controller
         
         return View(salaViewModel);
     }
+
+    [HttpGet]
+    public ViewResult Excluir(int id)
+    {
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var sala = repositorioSala.SelecionarPorId(id);
+
+        var excluirSalaViewModel = new SalaViewModels.ExcluirSalaViewModel()
+        {
+            Id = sala.Id,
+            Numero = sala.Numero
+        };
+        
+        return View(excluirSalaViewModel);
+    }
+
+    [HttpPost, ActionName("excluir")]
+    public ViewResult Excluir(SalaViewModels.ExcluirSalaViewModel excluirSalaViewModel)
+    {
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var salaSelecionada = repositorioSala.SelecionarPorId(excluirSalaViewModel.Id);
+
+        repositorioSala.Excluir(salaSelecionada);
+        
+        ViewBag.Mensagem = $"A sala {salaSelecionada.Numero} foi excluida com sucesso";
+        
+        return View("mensagens");
+    }
 }
