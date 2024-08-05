@@ -1,0 +1,23 @@
+﻿@model ControleDeCinema.WebApp.Models.SalaViewModels.EditarSalaViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Editar Sala";
+}
+
+<div class="container">
+    <form asp-action="Editar">
+        <div class="col-md-6">
+            <label class="control-label fw-semibold">Numero</label>
+            <input type="number" class="form-control" asp-for="Numero"/>
+            <span class="text-danger my-1" asp-validation-for="Numero"></span>
+        </div>
+
+        <div class="col-md-3">
+            <label class="control-label fw-semibold">Capacidade</label>
+            <input type="number" class="form-control" asp-for="Capacidade"/>
+        </div>
+        
+        <button class="btn btn-dark col-md-3 mt-3">Gravar</button>
+    </form>
+</div>

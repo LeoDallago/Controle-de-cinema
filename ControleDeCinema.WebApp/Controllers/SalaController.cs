@@ -82,4 +82,42 @@ public class SalaController : Controller
         
         return View("mensagens");
     }
+
+    [HttpGet]
+    public ViewResult Editar(int id)
+    {
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var sala = repositorioSala.SelecionarPorId(id);
+
+        var editarSalaViewModel = new SalaViewModels.EditarSalaViewModel()
+        {
+            Id = sala.Id,
+            Numero = sala.Numero,
+            Capacidade = sala.Capacidade
+        };
+
+        return View(editarSalaViewModel);
+    }
+
+    [HttpPost]
+    public ViewResult Editar(SalaViewModels.EditarSalaViewModel editarSalaViewModel)
+    {
+        if (!ModelState.IsValid)
+            return View(editarSalaViewModel);
+        
+        var db = new ControleDeCinamaDbContext();
+        var repositorioSala = new RepositorioSala(db);
+
+        var salaOriginal = repositorioSala.SelecionarPorId(editarSalaViewModel.Id);
+
+        var salaEditada = new Sala(editarSalaViewModel.Numero,editarSalaViewModel.Capacidade);
+
+        repositorioSala.Editar(salaOriginal,salaEditada);
+        
+        ViewBag.Mensagem = $"A Sala {salaOriginal.Numero} foi editada com sucesso";
+        
+        return View("mensagens");
+    }
 }
