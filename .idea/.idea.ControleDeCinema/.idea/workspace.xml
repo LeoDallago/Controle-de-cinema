@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado interface editar sala" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/ModuloSessao/RepositorioSessao.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleDeCinemaTestes/ModuloSessao/TestesIntegrados.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSessao/Sessao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSessao/Sessao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +42,12 @@
     &quot;assignee&quot;: &quot;MaCout0&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LeoDallago/Controle-de-cinema.git",
-    "accountId": "189c0a4a-41ac-45a6-9a87-58a2e765a1e5"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LeoDallago/Controle-de-cinema.git&quot;,
+    &quot;accountId&quot;: &quot;189c0a4a-41ac-45a6-9a87-58a2e765a1e5&quot;
   }
-}]]></component>
+}</component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock://C:/Users/leoda/RiderProjects/Controle-de-cinema/ControleDeCinema.WebApp/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" root2="SKIP_HIGHLIGHTING" />
   </component>
@@ -52,33 +62,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.ControleDeCinema.WebApp: http.executor": "Run",
-    ".NET Launch Settings Profile.ControleDeCinema.WebApp: https.executor": "Run",
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "HotReloadSettingsPage",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.ControleDeCinema.WebApp: http.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.ControleDeCinema.WebApp: https.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;HotReloadSettingsPage&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "sqlserver",
-      "sqlserver.localdb"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;sqlserver&quot;,
+      &quot;sqlserver.localdb&quot;
     ],
-    "rider.external.source.directories": [
-      "C:\\Users\\leoda\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\leoda\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\leoda\\AppData\\Local\\Symbols\\src"
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\leoda\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\leoda\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\leoda\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.ControleDeCinema.WebApp: http">
     <configuration name="ControleDeCinema.WebApp: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/ControleDeCinema.WebApp/ControleDeCinema.WebApp.csproj" />
@@ -151,7 +161,8 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
-      <workItem from="1722857809698" duration="5001000" />
+      <workItem from="1722857809698" duration="6123000" />
+      <workItem from="1722876858526" duration="1892000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -257,7 +268,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722862857693</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="implementado interface de detalhes da sala">
+      <option name="closed" value="true" />
+      <created>1722863276591</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1722863276591</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +310,7 @@
     <MESSAGE value="implementado listar sala" />
     <MESSAGE value="implementado interface excluir sala" />
     <MESSAGE value="implementado interface editar sala" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado interface editar sala" />
+    <MESSAGE value="implementado interface de detalhes da sala" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado interface de detalhes da sala" />
   </component>
 </project>

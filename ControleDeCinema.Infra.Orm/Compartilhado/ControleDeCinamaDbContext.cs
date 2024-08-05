@@ -1,5 +1,6 @@
 ﻿using ControleDeCinema.Dominio.ModuloFilme;
 using ControleDeCinema.Dominio.ModuloSala;
+using ControleDeCinema.Dominio.ModuloSessao;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -10,6 +11,8 @@ public class ControleDeCinamaDbContext : DbContext
    public DbSet<Filme> Filmes { get; set; }
    
    public DbSet<Sala> Salas { get; set; }
+   
+   public DbSet<Sessao> Sessoes { get; set; }
    
    protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
    {
@@ -62,7 +65,28 @@ public class ControleDeCinamaDbContext : DbContext
             .IsRequired()
             .HasColumnType("int");
       });
-      
+
+
+      modelBuilder.Entity<Sessao>(sessaoBuilder =>
+      {
+         sessaoBuilder.ToTable("TBSessao");
+
+         sessaoBuilder.Property(s => s.Id)
+            .IsRequired()
+            .ValueGeneratedOnAdd();
+
+         sessaoBuilder.Property(s => s.Filme)
+            .IsRequired()
+            .HasColumnType("varchar(250)");
+
+         sessaoBuilder.Property(s => s.Sala)
+            .IsRequired()
+            .HasColumnType("varchar(250)");
+
+         sessaoBuilder.Property(s => s.HorarioDeInicio)
+            .IsRequired()
+            .HasColumnType("varchar(100)");
+      });
       base.OnModelCreating(modelBuilder);
    }
 }
