@@ -18,3 +18,9 @@ namespace ControleDeCinema.WebApp.Models;
         [Required(ErrorMessage = "Por favor, insira o Horario de inicio")]
         public DateTime HorarioDeInicio { get; set; }
     }
+
+
+    public class ExcluirSessaoViewModel()
+    {
+        public int Id { get; set; }
+    }

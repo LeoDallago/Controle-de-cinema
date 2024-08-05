@@ -49,4 +49,33 @@ public class SessaoController : Controller
         
         return View("mensagens");
     }
+
+    [HttpGet]
+    public ViewResult Excluir(int id)
+    {
+        var dbContext = new ControleDeCinamaDbContext();
+        var repositorioSessao = new RepositorioSessao(dbContext);
+
+        var sessao = repositorioSessao.SelecionarPorId(id);
+
+        var excluirSessaoViewModel = new ExcluirSessaoViewModel()
+        {
+            Id = sessao.Id
+        };
+        
+        return View(excluirSessaoViewModel);
+    }
+
+    [HttpPost, ActionName("excluir")]
+    public ViewResult Excluir(ExcluirSessaoViewModel excluirSessaoViewModel)
+    {
+        var dbContext = new ControleDeCinamaDbContext();
+        var repositorioSessao = new RepositorioSessao(dbContext);
+
+        var sessao = repositorioSessao.SelecionarPorId(excluirSessaoViewModel.Id);
+        repositorioSessao.Excluir(sessao);
+        
+        ViewBag.Mensagem = $"Sessao excluida com sucesso";
+        return View("mensagens");
+    }
 }

@@ -1,0 +1,20 @@
+﻿@model ControleDeCinema.WebApp.Models.ExcluirSessaoViewModel
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Excluir Sessao";
+}
+
+<div class="container">
+    <h1 class="fs-3">Deseja excluir a Sessao: <strong>@Model.Id</strong></h1>
+    <form class="col-md-6 justfiy-content-center" asp-action="Excluir">
+        <button class="btn btn-danger">
+            <i class="bi bi-trash me-1"></i>
+            Excluir
+        </button>
+
+        <a class="btn btn-dark bi bi-arrow-left" href="/sessao/listar">Voltar</a>
+    </form>
+</div>
+
+

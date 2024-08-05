@@ -9,10 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado repositorio e testes de sessao">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SessaoController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SessaoViewModels.cs" afterDir="false" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sessao/Excluir.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SessaoController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SessaoController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SessaoViewModels.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SessaoViewModels.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,7 +157,8 @@
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
       <workItem from="1722857809698" duration="6123000" />
-      <workItem from="1722876858526" duration="5352000" />
+      <workItem from="1722876858526" duration="11751000" />
+      <workItem from="1722897308827" duration="473000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -278,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722879002902</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="implementado interface inserir sessao">
+      <option name="closed" value="true" />
+      <created>1722888692111</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1722888692111</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +324,7 @@
     <MESSAGE value="implementado interface editar sala" />
     <MESSAGE value="implementado interface de detalhes da sala" />
     <MESSAGE value="implementado repositorio e testes de sessao" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado repositorio e testes de sessao" />
+    <MESSAGE value="implementado interface inserir sessao" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado interface inserir sessao" />
   </component>
 </project>
