@@ -9,15 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado pagina inicial">
-      <change afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/ModuloSala/RepositorioSala.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ControleDeCinemaTestes/ModuloSala/TestesIntegrados.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/7264752d-3ae6-4c53-8a98-e9947d553ebe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/dataSources/de5f5265-01a4-45d7-97ce-108863613d8e.xml" afterDir="false" />
+    <list default="true" id="ffa26fdf-fe2f-4458-a8c2-bcbf96496de5" name="Changes" comment="implementado migration e testes de sala">
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Controllers/SalaController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Models/SalaViewModels.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ControleDeCinema.WebApp/Views/Sala/Inserir.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ControleDeCinema/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSala/Sala.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Dominio/ModuloSala/Sala.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Compartilhado/ControleDeCinamaDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ControleDeCinema.Infra.Orm/Migrations/ControleDeCinamaDbContextModelSnapshot.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,7 +160,7 @@
       <workItem from="1722600625479" duration="2308000" />
       <workItem from="1722603219025" duration="3058000" />
       <workItem from="1722614919186" duration="1818000" />
-      <workItem from="1722857809698" duration="1822000" />
+      <workItem from="1722857809698" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -230,7 +226,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722616460868</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="implementado migration e testes de sala">
+      <option name="closed" value="true" />
+      <created>1722859972459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722859972459</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +263,7 @@
     <MESSAGE value="implementado listagem de filmes" />
     <MESSAGE value="implementado Detalhes do filme" />
     <MESSAGE value="implementado pagina inicial" />
-    <option name="LAST_COMMIT_MESSAGE" value="implementado pagina inicial" />
+    <MESSAGE value="implementado migration e testes de sala" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementado migration e testes de sala" />
   </component>
 </project>
